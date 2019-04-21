@@ -14,4 +14,6 @@ class Person
   def job=(new_job)
     @new_job = new_job
   end 
+  
+  
 end 
