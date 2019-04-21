@@ -16,9 +16,9 @@ class Person
   end 
   
   beyonce = Person.new 
-  beyonce.instance_variable_set(:@name, "Beyonce")
+  beyonce.instance_variable_set(:@name => "Beyonce")
   
   singer = Person.new 
-  singer.instance_variable_set(:@job, "Singer")
+  singer.instance_variable_set(:@job => "Singer")
   
 end 
