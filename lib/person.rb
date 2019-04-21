@@ -15,6 +15,9 @@ class Person
     @new_job = new_job
   end 
   
+  beyonce = Person.new 
+  beyonce = "Beyonce"
   
+  singer = Person.new 
   
 end 
