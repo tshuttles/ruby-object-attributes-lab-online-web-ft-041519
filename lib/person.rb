@@ -4,7 +4,7 @@ class Person
   end 
   
   def name=(new_name)
-    @new_name = "Beyonce"
+    @new_name = new_name
   end 
   
   def job  
@@ -12,6 +12,6 @@ class Person
   end 
   
   def job=(new_job)
-    @new_job = "Singer"
+    @new_job = new_job
   end 
 end 
